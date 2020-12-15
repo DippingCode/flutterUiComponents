@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+//import 'ui/environments.dart';
+import 'screens/simpleScreen.dart';
+
 void main() {
   runApp(App());
 }
@@ -18,6 +21,6 @@ class _AppState extends State<App> {
       DeviceOrientation.portraitUp,
     ]);
 
-    return Container();
+    return simpleScreen();
   }
 }
